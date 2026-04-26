@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"a43448a208362ce5","type":"text","text":"定义和基本术语","x":-146,"y":-120,"width":167,"height":60},
+		{"id":"765b4dd5256f410c","type":"text","text":"图的遍历","x":-386,"y":220,"width":130,"height":60},
+		{"id":"6626caf926d39dfd","type":"text","text":"生成树和最小生成树","x":-399,"y":340,"width":200,"height":60},
+		{"id":"f610e7d13ab75f8f","type":"text","text":"深度优先遍历","x":-136,"y":160,"width":148,"height":60},
+		{"id":"a888c6f361103468","type":"text","text":"广度优先遍历","x":-136,"y":250,"width":148,"height":60},
+		{"id":"7e0a487bb6cf9eb6","type":"text","text":"图","x":-600,"y":220,"width":67,"height":60},
+		{"id":"ca76c55cf2f17e31","type":"text","text":"图的概念","x":-386,"y":-30,"width":130,"height":60},
+		{"id":"797d180817b858b0","type":"text","text":"图的储存结构","x":-398,"y":100,"width":155,"height":60},
+		{"id":"30da240e71e5217d","type":"text","text":"最短路径","x":-386,"y":470,"width":130,"height":60},
+		{"id":"2dc2125286b0d26a","type":"text","text":"Dijkstra/Floyd算法","x":-136,"y":470,"width":194,"height":60},
+		{"id":"6aa8063db83e19eb","type":"text","text":"Prim和Kruskal算法","x":-136,"y":340,"width":196,"height":60},
+		{"id":"7d8e848a90475c11","type":"text","text":"邻接矩阵","x":-126,"y":-30,"width":125,"height":60},
+		{"id":"54d8f6602b7f7964","type":"text","text":"邻接表","x":-125,"y":50,"width":125,"height":60},
+		{"id":"b9689255f06d5496","x":80,"y":160,"width":280,"height":150,"type":"file","file":"大二上/数据结构/图/图的遍历.md"}
+	],
+	"edges":[
+		{"id":"3c7ec0d50c746a36","fromNode":"797d180817b858b0","fromSide":"right","toNode":"7d8e848a90475c11","toSide":"left"},
+		{"id":"ce831d98143032a4","fromNode":"797d180817b858b0","fromSide":"right","toNode":"54d8f6602b7f7964","toSide":"left"},
+		{"id":"ca55a11a65e58991","fromNode":"765b4dd5256f410c","fromSide":"right","toNode":"f610e7d13ab75f8f","toSide":"left"},
+		{"id":"6db1263417e9c5b3","fromNode":"765b4dd5256f410c","fromSide":"right","toNode":"a888c6f361103468","toSide":"left"},
+		{"id":"0ad9d1c46810de47","fromNode":"ca76c55cf2f17e31","fromSide":"right","toNode":"a43448a208362ce5","toSide":"left"},
+		{"id":"341fc2965e31f316","fromNode":"7e0a487bb6cf9eb6","fromSide":"right","toNode":"ca76c55cf2f17e31","toSide":"left"},
+		{"id":"873a79b6551fa78d","fromNode":"7e0a487bb6cf9eb6","fromSide":"right","toNode":"797d180817b858b0","toSide":"left"},
+		{"id":"fa3769babc00f447","fromNode":"7e0a487bb6cf9eb6","fromSide":"right","toNode":"765b4dd5256f410c","toSide":"left"},
+		{"id":"79604764f150b5e8","fromNode":"7e0a487bb6cf9eb6","fromSide":"right","toNode":"6626caf926d39dfd","toSide":"left"},
+		{"id":"2720e4a08a34ddfa","fromNode":"7e0a487bb6cf9eb6","fromSide":"right","toNode":"30da240e71e5217d","toSide":"left"},
+		{"id":"aaa85f4188562b87","fromNode":"6626caf926d39dfd","fromSide":"right","toNode":"6aa8063db83e19eb","toSide":"left"},
+		{"id":"619457f938dd82b5","fromNode":"30da240e71e5217d","fromSide":"right","toNode":"2dc2125286b0d26a","toSide":"left"}
+	]
+}

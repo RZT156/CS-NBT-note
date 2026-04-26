@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"861abb1766f05191","type":"file","file":"大二上/数据结构/树/平衡二叉树AVL.md","x":-260,"y":120,"width":300,"height":320,"color":"1"},
+		{"id":"1921a40fff7051bb","type":"text","text":"二叉树","x":-540,"y":-420,"width":250,"height":60},
+		{"id":"07eadd69de5abd3c","type":"text","text":"完全二叉树\n","x":-780,"y":-180,"width":250,"height":60},
+		{"id":"124bf441ac5a5535","type":"file","file":"大二上/数据结构/树/堆Heap.md","x":-800,"y":80,"width":290,"height":320,"color":"5"},
+		{"id":"0f4056935165d8be","type":"file","file":"大二上/数据结构/树/二叉排序（搜索）树BST.md","x":-260,"y":-310,"width":300,"height":320,"color":"1"}
+	],
+	"edges":[
+		{"id":"618dcd1f08a807cf","fromNode":"1921a40fff7051bb","fromSide":"right","toNode":"0f4056935165d8be","toSide":"top","label":"BST结点值约束"},
+		{"id":"2c1f4059dfc37dff","fromNode":"1921a40fff7051bb","fromSide":"left","toNode":"07eadd69de5abd3c","toSide":"top","label":"满树"},
+		{"id":"3596d125820a14bc","fromNode":"07eadd69de5abd3c","fromSide":"bottom","toNode":"124bf441ac5a5535","toSide":"top","label":"采用完全二叉树存储的优先队列 "},
+		{"id":"496ca0e47f055a6f","fromNode":"0f4056935165d8be","fromSide":"bottom","toNode":"861abb1766f05191","toSide":"top","label":"平衡因子绝对值≤1"}
+	]
+}
