@@ -8,9 +8,9 @@ MySQL数据表操作：[[MySQL数据内容操作]]
 ## 创建
 `CREATE DATABASE [if not exists] 数据库名 [default charset 字符集];
 if not exists: 当库不存在时创建
-# 删除
+## 删除
 `DROP DATABASE [if exists] 数据库名;
-# 选择使用
+## 选择使用
 `use 数据库名;
 # 2.DML
 # 3.DQL
