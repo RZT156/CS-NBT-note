@@ -101,10 +101,13 @@ WHERE    条件
 GROUP BY 分组字段
 HAVING   分组后条件
 ORDER BY 排序字段(ASC/DESC)
-SELECT 字段名1 AS 别名1, ...
+SELECT 字段名1 AS(可省) 别名1, ...
 ```
 ## 条件查询
 ### 运算符
+ANY 任意，ALL  所有
+\> ANY 大于最小的，> ALL 大于最大的
+\< ANY 小于最大的，< ALL 小于最小的
 
 | 比较运算符 |             | 逻辑运算符           |
 | ----- | ----------- | --------------- |
@@ -134,23 +137,59 @@ null值不统计
 **GROUP BY**
 `select 字段 from 表 [where 条件]group by 分组字段名 having 分组后条件；`
 **WHERE** & **HAVING** 区别
-
+- where分组前过滤，having分组后
+- where中不能用聚合函数，having可以
 ## 排序查询
 **ORDER BY** 排序
 **ASC**   升序排列
 **DESC** 降序排列
 `select 字段名 from 表名 order by 字段1 desc, 字段2 desc;`
-先满足前面，再满足后面。
+先满足前面，再满足后面
+## 嵌套查询
+**IN**
+书上有，`select ... from ... where 字段名 in (select ... from ... where ...);`
+1. 相关子查询
+2. 不相关子查询
+  
+当`IN`后面括号里**只有一个值**时，`IN`可以写成`=`。
+```sql
+WHERE id IN (5)
+WHERE id = 5
+```
+**其他情况不能用 `=` 代替 `IN`**：
+```sql
+-- IN 有多个值，不能改写成 =
+WHERE id IN (5, 10, 15)   -- 正确
+WHERE id = 5 OR id = 10 OR id = 15   -- 这是等价改写
+-- 子查询返回多行，不能直接用 =
+WHERE id IN (SELECT user_id FROM orders)   -- 正确
+WHERE id = (SELECT user_id FROM orders)    -- 错误：子查询返回多行会报错
+```
+
+## 分页查询
+不同数据库有不同的实现，MySQL中是**LIMIT**
+`limit 起始索引(0-based), 查询数量;`
+索引在第一页时可省略。
+## 执行顺序
+**时序问题！**
+having中时序不影响（豆包说的）
+```
+SELECT   5 
+FROM     1
+WHERE    2
+GROUP BY 3
+HAVING   4
+ORDER BY 6
+LIMIT    7
+```
+
+# 四、DCL
+
 # SQL高级语言
 ## 5.JOIN
 多表关联
-
 ## 6.UNION
 合并结果集
-
-## 7.NOT NULL
-非空
-
 ## 8.VIEW
 视图
 
