@@ -194,5 +194,3 @@ LIMIT    7
 ## 8.VIEW
 视图
 
-## 索引
-CREATE INDEX 索引名 ON 表名(字段名);
