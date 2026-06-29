@@ -125,10 +125,10 @@ ANY 任意，ALL  所有
 `SELECT 聚合函数(字段名) FROM 表名;`
 null值不统计
 1. AVG
-2. COUNT 分组统计
+2. COUNT 分组统计**行数**
 3. MAX
 4. MIN
-5. SUM
+5. SUM **数值**
 6. ~~UPPER/UCASE 大写~~
 7. ~~LOWER/LCASE 小写~~
 8. ~~LEN/LENGTH 长度~~
