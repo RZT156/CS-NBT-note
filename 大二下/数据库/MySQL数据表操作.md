@@ -72,6 +72,8 @@ ALTER TABLE 表名 CHANGE 旧字段名 新字段名 类型(长度) [COMMENT 注�
 ### 表操作
 改名 `RENAME
 `ALTER TABLE 旧数据表名 RENAME( TO) 新数据表名;
+还可以改索引名
+`ALTER INDEX 旧索引名 RENAME TO 新索引名`
 ## 4.删除
 **DROP**
 删表
@@ -196,7 +198,7 @@ LIMIT    7
 intersect 交操作
 ## EXCEPT
 差操作
-## VIEW
+## **VIEW**
 视图
 CREATE VIEW 视图名 \[属性列]
 AS <子查询>
