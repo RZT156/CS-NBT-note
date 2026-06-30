@@ -1,22 +1,3 @@
 {
-  "promptDelete": false,
-  "spellcheck": false,
-  "alwaysUpdateLinks": true,
-  "mobileToolbarCommands": [
-    "editor:undo",
-    "editor:redo",
-    "editor:insert-wikilink",
-    "editor:insert-embed",
-    "editor:insert-tag",
-    "editor:attach-file",
-    "editor:set-heading",
-    "editor:toggle-strikethrough",
-    "editor:toggle-code",
-    "editor:toggle-blockquote",
-    "editor:insert-link",
-    "editor:toggle-checklist-status",
-    "editor:unindent-list",
-    "editor:configure-toolbar",
-    "editor:toggle-keyboard"
-  ]
+  "alwaysUpdateLinks": true
 }
