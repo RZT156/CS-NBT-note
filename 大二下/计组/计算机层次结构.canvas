@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"b6b11b274009348c","type":"text","text":"汇编语言机器","x":-125,"y":40,"width":145,"height":60},
+		{"id":"3cc830104e4af55b","type":"text","text":"传统机器（执行机器语言指令）","x":-132,"y":200,"width":165,"height":60},
+		{"id":"a9098971da75a43d","type":"text","text":"高级语言机器","x":-125,"y":-40,"width":145,"height":60},
+		{"id":"5a113d4a2a44e301","x":-132,"y":280,"width":165,"height":60,"type":"text","text":"微程序机器（执行微指令）"},
+		{"id":"801f47df46039095","type":"text","text":"操作系统机器（向上提供广义指令）","x":-142,"y":120,"width":180,"height":60}
+	],
+	"edges":[
+		{"id":"07a07854dc2f584a","fromNode":"a9098971da75a43d","fromSide":"bottom","toNode":"b6b11b274009348c","toSide":"top"},
+		{"id":"4d7408d14e3c7e4f","fromNode":"b6b11b274009348c","fromSide":"bottom","toNode":"801f47df46039095","toSide":"top"},
+		{"id":"eb61319413aac275","fromNode":"801f47df46039095","fromSide":"bottom","toNode":"3cc830104e4af55b","toSide":"top"},
+		{"id":"3687f71c2d767bc8","fromNode":"3cc830104e4af55b","fromSide":"bottom","toNode":"5a113d4a2a44e301","toSide":"top"}
+	]
+}
