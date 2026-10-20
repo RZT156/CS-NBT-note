@@ -12,8 +12,7 @@
 		{"id":"2dc2125286b0d26a","type":"text","text":"Dijkstra/Floyd算法","x":-136,"y":470,"width":194,"height":60},
 		{"id":"6aa8063db83e19eb","type":"text","text":"Prim和Kruskal算法","x":-136,"y":340,"width":196,"height":60},
 		{"id":"7d8e848a90475c11","type":"text","text":"邻接矩阵","x":-126,"y":-30,"width":125,"height":60},
-		{"id":"54d8f6602b7f7964","type":"text","text":"邻接表","x":-125,"y":50,"width":125,"height":60},
-		{"id":"b9689255f06d5496","x":80,"y":160,"width":280,"height":150,"type":"file","file":"408复习/数据结构/图/图的遍历.md"}
+		{"id":"54d8f6602b7f7964","type":"text","text":"邻接表","x":-125,"y":50,"width":125,"height":60}
 	],
 	"edges":[
 		{"id":"3c7ec0d50c746a36","fromNode":"797d180817b858b0","fromSide":"right","toNode":"7d8e848a90475c11","toSide":"left"},
