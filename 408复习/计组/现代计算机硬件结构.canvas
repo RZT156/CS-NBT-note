@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"37608fd5691953b2","type":"text","text":"控制器","x":-280,"y":-320,"width":105,"height":50,"color":"5"},
+		{"id":"a5edd08cf21eb960","type":"text","text":"存储器","x":-280,"y":-145,"width":105,"height":50,"color":"5"},
+		{"id":"7683f3b4bc66b2bc","x":85,"y":-245,"width":70,"height":50,"color":"2","type":"text","text":"主机"},
+		{"id":"d667111952616a91","type":"text","text":"运算器","x":-280,"y":-220,"width":105,"height":50,"color":"5"},
+		{"id":"aa109bc58f8d7713","x":-100,"y":-270,"width":95,"height":50,"color":"1","type":"text","text":"CPU"},
+		{"id":"b55c10b8ccb96bcb","x":-90,"y":-195,"width":75,"height":50,"color":"1","type":"text","text":"主存"},
+		{"id":"8d497b87ec1a0782","x":-90,"y":-95,"width":75,"height":50,"color":"1","type":"text","text":"辅存"},
+		{"id":"e4e682c7bab40985","x":85,"y":-70,"width":70,"height":50,"color":"2","type":"text","text":"I/O"},
+		{"id":"b5c7bdce75042a25","type":"text","text":"输入输出设备","x":-280,"y":-45,"width":140,"height":50,"color":"5"},
+		{"id":"c8f1c2e8e009eee7","x":240,"y":-170,"width":80,"height":50,"color":"3","type":"text","text":"硬件"}
+	],
+	"edges":[
+		{"id":"5fece793db975a39","fromNode":"37608fd5691953b2","fromSide":"right","toNode":"aa109bc58f8d7713","toSide":"left"},
+		{"id":"a323cb8d4601a0db","fromNode":"d667111952616a91","fromSide":"right","toNode":"aa109bc58f8d7713","toSide":"left"},
+		{"id":"916d05444cc80209","fromNode":"b55c10b8ccb96bcb","fromSide":"left","toNode":"a5edd08cf21eb960","toSide":"right"},
+		{"id":"54ccc049fdca6a6f","fromNode":"8d497b87ec1a0782","fromSide":"left","toNode":"a5edd08cf21eb960","toSide":"right"},
+		{"id":"566041b3a4bb2cce","fromNode":"aa109bc58f8d7713","fromSide":"right","toNode":"7683f3b4bc66b2bc","toSide":"left"},
+		{"id":"ce75a6688d703bc8","fromNode":"b55c10b8ccb96bcb","fromSide":"right","toNode":"7683f3b4bc66b2bc","toSide":"left"},
+		{"id":"eb693d92cdb325fa","fromNode":"8d497b87ec1a0782","fromSide":"right","toNode":"e4e682c7bab40985","toSide":"left"},
+		{"id":"806bd112351570f9","fromNode":"b5c7bdce75042a25","fromSide":"right","toNode":"e4e682c7bab40985","toSide":"left"},
+		{"id":"3fe31f35c19e3dfd","fromNode":"7683f3b4bc66b2bc","fromSide":"right","toNode":"c8f1c2e8e009eee7","toSide":"left"},
+		{"id":"34d0a53b28e0cf0c","fromNode":"e4e682c7bab40985","fromSide":"right","toNode":"c8f1c2e8e009eee7","toSide":"left"}
+	]
+}
