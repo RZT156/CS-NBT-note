@@ -24,7 +24,7 @@
   "customMessageOnAutoBackup": false,
   "autoBackupAfterFileChange": false,
   "treeStructure": true,
-  "gitServerPasswordSecret": "",
+  "gitServerPasswordSecret": "madepad",
   "refreshSourceControl": true,
   "basePath": "",
   "differentIntervalCommitAndPush": false,
