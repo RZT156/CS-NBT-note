@@ -1,6 +1,7 @@
 [
   "obsidian-git",
-  "dataview",
-  "calendar",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "better-export-pdf",
+  "file-explorer-note-count",
+  "obsidian-hover-editor"
 ]

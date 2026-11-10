@@ -1,6 +1,8 @@
 {
   "accentColor": "#669fdb",
-  "theme": "moonstone",
+  "theme": "system",
   "cssTheme": "Blue Topaz",
-  "floatingNavigation": false
+  "floatingNavigation": false,
+  "showRibbon": false,
+  "showViewHeader": true
 }
