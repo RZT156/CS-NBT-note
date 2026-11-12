@@ -7,5 +7,14 @@
     "margin": "0",
     "downscalePercent": 100
   },
-  "promptDelete": false
+  "promptDelete": false,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./",
+  "readableLineLength": false,
+  "strictLineBreaks": false,
+  "showInlineTitle": true,
+  "foldHeading": true,
+  "foldIndent": true,
+  "showLineNumber": false,
+  "showIndentGuide": true
 }
